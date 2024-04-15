@@ -1,0 +1,568 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"roboto",sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+  /* Navigation Bar Styles */
+  nav.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #f8f9fa; /* Light background color */
+    padding: 0 20px; /* Add padding for content inside the nav */
+    position: sticky; /* Make the navigation bar sticky */
+    top: 0; /* Stick to the top of the viewport */
+    z-index: 1000; 
+}
+
+/* Left Navbar Section */
+.main-container .left-navbar {
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    width: 20%;
+}
+.main-container .nav-logo img {
+    width: 70%; /* Adjust logo width */
+}
+
+.main-container .nav-list ul {
+    display: flex;
+    list-style: none;
+    gap: 20px; /* Increase gap between list items */
+    margin-left: 0px; /* Adjust left margin */
+}
+
+.main-container .nav-list ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px; 
+    border-radius: 4px; 
+}
+
+/* Right Navbar Section */
+.main-container .right-navbar {
+    display: flex;
+    align-items: center;
+}
+
+.main-container .right-navbar i {
+    margin: 0 8px; 
+    font-size: 20px; 
+    cursor: pointer; 
+    color: #343a40; 
+}
+.main-container .nav-list ul li a:hover {
+    color: red; /* Change text color to red on hover */
+}
+
+.main-container .right-navbar i:hover {
+    color: #007bff; /* Change icon color on hover */
+}
+
+.short-img-container
+{
+
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    gap: 60px;
+
+}
+.short-img-container img{
+    margin: 15px;
+}
+/*------------ short image section end--------- */
+/*------------ heading section start--------- */
+.section-heading 
+{
+   
+    text-align: center;
+    margin-top: 50px;
+}
+.section-heading p a
+{
+    color: red;
+}
+
+
+/*------------ heading section end--------- */
+   /*----------- spotify section start---------- */
+   .sopify-section{
+        display: flex;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        margin-top: 85px;
+   }
+   
+   .sopify-img1 img
+   {
+    width: 400px;
+    height: 400px;
+   }
+   .sopify-heading1 h1
+   {
+        font-size: xx-large;
+   }
+   .sopify-heading1 button
+   {
+        background-color: orangered;
+        width: 130px;
+        height: 35px;
+        margin-top: 25px;
+        border-radius: 25px;
+        border: none;
+   }
+   
+  .scooterinfo{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    padding-left: 3%;
+  }
+  .scootertxt{
+    height: 80vh;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+  }
+  .scootertxt h1{
+    font-size: 2.5rem;
+    margin-bottom: 5%;
+  }
+  .scootertxt .p1{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 3%;
+  }
+  .scootertxt .p2{
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 1.3rem;
+    margin-bottom: 3%;
+  }
+  .scootertxt button{
+    background-color: #FF4A32;
+    width: 25%;
+    height: 10%;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+  }
+  .scooterimg{
+    height: 100vh;
+    width: 48%;
+   
+  }
+  .scooterimgfr{
+    width: 90%;
+    height: 100%;
+  }
+  .skateinfo{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    padding-left: 3%;
+  }
+  .skatetxt{
+    height: 80vh;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+  }
+  .skatetxt h1{
+    font-size: 2.5rem;
+    margin-bottom: 5%;
+  }
+  .skatetxt .p1{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 3%;
+  }
+  .skatetxt .p2{
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 1.3rem;
+    margin-bottom: 3%;
+  }
+  .skatebutton{
+    background-color: #FF4A32;
+    width: 25%;
+    height: 10%;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+  }
+  .skateimg{
+    height: 90vh;
+    width: 48%;
+   
+  }
+  .skateimgfr{
+    width: 90%;
+    height: 100%;
+  }
+  .fillscooter{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://boostedusa.com/cdn/shop/files/boosted-rev-display_1600x.jpg?v=1646160921);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fillscooter h2 {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+  .fillscooter h1{
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  .fillscooter p{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1%;
+  }
+  .fillscooter button{
+    background-color: #FF4A32;
+    width: 15%;
+    height: 7%;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 35px;
+    font-size: 1.2rem;
+  }
+  .iframe{
+    padding: 2%;
+  }
+  .fillskate{
+    height: 90vh;
+    width: 100vw;
+    background-image: url(https://boostedusa.com/cdn/shop/files/evolve-skateboards-1_1600x.jpg?v=1646161047);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+    color: white;
+}
+.fillskate h2{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 1%;
+}
+.fillskate h1{
+    font-size: 4rem;
+}
+.fillskate h3{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 1%;
+}
+.fillskate button{
+    background-color: #FF4A32;
+    width: 15%;
+    height: 7%;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 35px;
+    font-size: 1.2rem;
+}
+.accinfo{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.4rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.itemsparent{
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    justify-content: space-evenly;
+    padding: 1%;
+    
+}
+.items{
+width: 14vw;
+height: 30vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.itemimg{
+    height: 80%;
+}
+.items h4{
+    font-weight: normal;
+    color: #FF6161;
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+}
+.items h3{
+    font-weight: normal;
+
+}
+.newsparent{
+    height: 90vh;
+    width: 100vw;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 80vh;
+    padding-top: 2%;
+    
+}
+.newsletter h1{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 2%;
+}
+.newsletter .p1{
+    font-weight: normal;
+    font-size: 1.3rem;
+    margin-bottom: 9%;
+}
+.newsletter h3{
+    margin-bottom: 2%;
+}
+.newsletter input{
+    width: 95%;
+    height: 7vh;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 2%;
+}
+.newsletter .p2{
+    font-size: small;
+    text-align: center;
+    padding-right: 6%;
+}
+.newsletter a{
+    text-align: center;
+    font-size: small;
+    margin-bottom: 4%;
+}
+.signup{
+    background-color: #FF4A32;
+    width: 95%;
+    height: 9vh;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+}
+.button2{
+    background-color: #A0A0A0;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 25%;
+    height: 30px;
+    margin-left: 33%;
+}
+.divvs{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+}
+.innfo{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.infoimg{
+    padding-top: 15%;
+    width: 30%;
+}
+.innfo h1{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.innfo p{
+    font-weight: normal;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 3%;
+    padding: 5%;
+}
+footer{
+    background-color: #F7F7F7;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    
+}
+footer .ftimg{
+    width: 30vw;
+    height: 70vh ;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    
+}
+.boosterimgft{
+width: 50%;
+height: 60%;
+padding-top: 20%;
+}
+footer .ftlist{
+    width: 35vw;
+    height: 70vh;
+   padding: 4%;
+   line-height: 30px;
+   font-weight: normal;
+   font-size: 1.2rem;
+}
+.ftlist h1{
+    margin-bottom: 2%;
+}
+.ftlist li{
+    list-style: none;
+}
+ footer .fttxt{
+    width: 40vw;
+    padding: 4%;
+}
+.fttxt h1{
+    margin-bottom: 3%;
+}
+.fttxt p{
+    line-height: 30px;
+    margin-bottom: 2%;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+.fttxt pre{
+    font-size: 1.2rem;
+}
+.imggallery{
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.imgs{
+    height: 100vh;
+    width: 49%;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#img1{
+    background-image: url(https://boostedusa.com/cdn/shop/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1000x.jpg?v=1646159164);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#img2{
+    background-image: url(https://boostedusa.com/cdn/shop/files/Boosted-USA-Super-73-Home-Box-feature-600x544_1000x.jpg?v=1680839620);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#img3{
+    background-image: url(https://boostedusa.com/cdn/shop/files/evolve-electric-skateboard-now-in-stock_1000x.jpg?v=1646159245);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#img4{
+    background-image: url(https://boostedusa.com/cdn/shop/files/minimotors-electric-scooters-2_1000x.jpg?v=1655828690);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imgs::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)); /* Whitish overlay effect */
+    background-blend-mode: overlay; /* Blend mode for overlay */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.3s ease; /* Add smooth transition for zoom effect */
+}
+.imgs h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+    color: black; /* Set text color to black */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Add shadow for better readability */
+}
+.imgs:hover {
+    transform: scalex(1.1); /* Zoom in by 10% on hover */
+    transition: transform 0.3s ease;
+    z-index: -1;
+}
+
+/* Dropdown Content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+/* Show dropdown content when hovering over the list item */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style dropdown links */
+.dropdown-content a {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+/* Change background color on hover */
+.dropdown-content a:hover {
+    background-color: #f0f0f0;
+}
